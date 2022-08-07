@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent page</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav_list">
+                <a href=""><img src="images\zuri_talent_logo.svg" alt="zuri_talent_logo"/></a>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Impact</a></li>
+                <li><a href="#">Why us</a></li>
+                <button class="hire">Hire talents</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="vetted_section">
+            <div>
+            <h3>Vetted and Trusted talents</h3>
+        </div>
+            <div>
+            <p>At Zuri Team, we train, test and place talent in various industries.<br>
+            We have access to the best pool of skills in the tech industry.</p>
+        </div>
+            <div class="buttons">
+                <button class="red_button">Hire talent</button>
+                <button class="grey_button">Join Talent pool</button>
+            </div>
+        </div>
+        <div class="first_image_c">
+            <img src="images\first_image.png" alt="man typing" class="first_image"/>
+        </div>
+        <div class="impacted_section">
+            <div class="impacted_text">
+                <br>
+                <br>
+                <br>
+                <div>
+                <h3>We have impacted the lives of<br>
+                <strong>thousands</strong> around the world</h3>
+            <h4>6,000 trained in 14 months</h4>
+            <p>Talent placed in 5 countries</p>
+        </div>
+            </div>
+            <div class="impacted_image">
+                <img src="images\impacted_image.png" alt="animation"/>
+            </div>
+        </div>
+        <div class="container_box">
+            <div>
+            <h3 class="skills_heading">Skills of our talents that you will need</h3>
+            <ul class="skills">
+                <li>UI/UX Designers</li>
+                <li>Backend Developers</li>
+                <li>DevOps Engineers</li>
+                <li>Frontend Developers</li>
+            </ul>
+        </div>
+        <div class="talent_org_container">
+            <h3>Where our talents work</h3>
+            <ul class="org">
+                <li>GitHub</li>
+                <li>Microsoft</li>
+                <li>Reskill Americans</li>
+                <li>Flutterwave</li>
+                <li>Google</li>
+                <li>Career Transitioners</li>
+            </ul>
+        </div>
+        </div>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
+
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_list{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.nav_list{
+    list-style-type:none;
+    padding:15px;
+}
+.nav_list a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav_list a:hover{
+    text-decoration: underline;
+    text-decoration-color: #E7332B;
+    text-decoration-thickness:4px;
+}
+
+.hire{
+    cursor:pointer;
+    border-style: none;
+    background-color:#E7332B;
+    color:white;
+    padding:1px;
+}
+
+.buttons{
+    display: flex;
+    margin-right: 2px;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1.4em;
+}
+
+.red_button{
+        background-color: #E7332B;
+        color: #fff;
+        border-style: none;
+        margin-right: 2%;
+        padding: 10px;
+        width:11em;
+}
+
+.grey_button{
+    background-color:gray;
+    color: #fff;
+    border: none;
+    width:11em;
+}
+
+.vetted_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.vetted_section h3{
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    text-align: center;
+    font-family:"Graphik", sans-serif;
+    font-weight: 800;
+    font-size:40px;
+}
+
+.vetted_section p{
+text-align: center;
+}
+
+.first_image_c{
+    display: flex;
+    justify-content: center;
+}
+
+.first_image{
+    width:70%;
+
+}
+
+.impacted_section{
+    background: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+.impacted_text{
+    padding: 20px;
+}
+
+.impacted_image{
+    position: relative;
+    position:right;
+}
+
+.impacted_image img{
+    width:300px;
+    height:100px;
+}
+ul{
+    list-style-type: none;
+}
+.skills, .org{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills li{
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px hsla(0,0%,48%,.16)!important;
+    color: #787878!important;
+    display: flex;
+    font-family: Graphik!important;
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    height: 100%!important;
+    justify-content: center;
+    line-height: 33px!important;
+    padding: 5px!important;
+    text-align: center;
+}
+
+.org li{
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px hsla(0,0%,48%,.16)!important;
+    color: #787878!important;
+    display: flex;
+    font-family: Graphik!important;
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    height: 100%!important;
+    justify-content: center;
+    line-height: 33px!important;
+    padding: 5px!important;
+    text-align: center;
+}
+
+.container_box h3{
+    color: #161617!important;
+    font-family: Graphik!important;
+    font-size: 30px!important;
+    font-style: normal!important;
+    font-weight: 800!important;
+    line-height: 49px!important;
+    margin: auto!important;
+    text-align: center;
+    width: 80%;
+}
+</style>
